@@ -1,0 +1,6 @@
+rootProject.name = 'apkeditor'
+
+include ':module_apk_editor'
+//include ':android_resource'
+
+include ':app'

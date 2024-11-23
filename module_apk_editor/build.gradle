@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.apk.editor.EditApk'
+    }
+
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
